@@ -1,5 +1,5 @@
 let form = document.querySelector('form');
-form.addEvent;Listener('submit',function(e){
+form.addEventListener('submit',function(e){
 	e.preventDefault();
 
    let inp=parseInt(document.querySelector('#number').value);
